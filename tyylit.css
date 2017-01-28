@@ -1,0 +1,124 @@
+@charset "UTF-8";
+body {
+	background-image: url("polka_dot.png");
+	font-family: "Andale Mono", monospace;
+	padding-left: 12em;
+	font-size: 100%;
+}
+/* Sijoitetaan lista vasempaan reunaan*/
+ul.navipalkki {
+  position: absolute;
+  top: 10em;
+  left: 0px;
+  width: 9em;
+  list-style-type: none;
+}
+li {
+	padding: 5px;
+}
+
+/*Kuvitusten muotoilut*/
+#keksi {
+	position: relative;
+	top: 15px;
+	right: -560px;
+	height: 140px;
+}
+#karkki{
+	position: relative;
+	right: -500px;
+	top: -200px;
+	height: 150px;
+}
+#muffari {
+	position: relative;
+	right: -320px;
+}
+
+
+
+#ekaSisalto {
+	position: relative;
+	top: -50px;
+}
+div {
+	background-color: white;
+	border-radius: 2px;
+	width:650px;
+	padding: 1px 10px 1px 10px;
+}
+#vikaEsim {
+	padding: 1px 10px 30px 10px;
+}
+a {
+	color: #680148;
+	display: block;
+	width: 110px;
+	padding: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-decoration: none;
+	border: solid 2px #61456A;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+}
+
+a:hover {
+	background-color: #7DB4B5;
+}
+a:active {
+	color: #680148;
+}
+
+h1 {
+	font-size: 3.2em;
+	font-weight: ;
+}
+h2, h3, h4 {
+	font-size: 1.5em;
+}
+#ekaOtsikko {
+	position: relative;
+	top: -90px;
+}
+
+p {
+	font-size: 0.875em;
+}
+.pointti {
+	background-color: #E0EFF1;
+	font-size: 1em;
+	font-style: bolder;
+}
+/* Muotoillaan koodille tarkoitettu laatikko*/
+.koodi {
+	padding: 3px;
+	padding-left: 5px;
+	border: solid 1px black;
+	background-color: #EFE0EE;
+}
+#tekstilinkki {
+	display: inline;
+	border: none;
+	color: #680148;
+	background-color: #E0EFF1;
+	padding: 0px; 
+}
+#tekstilinkki:hover {
+	padding: 0px 0px 0px 0px;
+	background-color: #E0EFF1;
+	color: #7DB4B5;
+}
+#eteenpain {
+	position: relative;
+	right: -530px;
+	top:-10px;
+}
+#takaisin {
+	position: relative;
+	top:20px;
+}
+#takaisin, #eteenpain {
+	background-color: #D8CFE4;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Murupolku nettisivuilla</title>
+  <!-- tyylit tallennettu tiedostoon "tyylit.css" tässä samassa hakemistossa ja tulostukseen käytettävä eri tyyli "tulostustyylit.css"-tiedostossa -->
+  <link rel="stylesheet" href="tyylit.css" media="screen"/>
+  <link rel="stylesheet" href="tulostustyylit.css" media="print"/>
+</head>
+<body>
+	
+	<!-- Sivuston navigaatiopalkki -->
+	<nav>
+		<ul class="navipalkki">
+			<li><a href="ht.html">Etusivu</a></li>
+			<li><a href="taustaa.html">Taustaa</a></li>
+			<li><a>Esimerkit</a></li>
+			<li><a href="palaute.html">Palaute</a></li>
+			<li><a href="lahteet.html">Lähteet</a></li>
+		</ul>
+	</nav>
+	
+	<h1>Murupolkujen ABC</h1>
+
+	<div id="vikaEsim">
+
+		<p>Nyt murupolkumme alkaa näyttää murupolulta:</p>
+		<img src="murupolku2.png">
+
+		<p>Enää on jäljellä pienet hienosäädöt. Erotetaan viimeinen alkio murupolusta, jotta käyttäjälle tulee selkeämpi käsitys, millä sivulla hän on nyt. Asetetaan siis viimeiselle sivulle linkin väriksi jokin erilainen väri, esimerkiksi tummempi sävy. Viimeisen linkin ei tulisi olla klikattavissa käyttäjälle, koska hän on jo sivulla. Tässä tutoriaalissa viimeinenkin on säilytetty koodissa linkkimuodossa, mutta oikealla nettisivulla voi linkin korvata pelkällä tekstillä &lt;li> -elementissä. </p>
+
+		<p class="koodi">
+			<code>
+
+				#viimeinen { <br>
+	    		&nbsp	color: #14363A; <br>
+				} 
+			
+			</code>	
+		</p>
+
+		<p>Seuraavaksi laitetaan kuntoon linkkien hover-ominaisuudet, eli kun käyttäjä vie hiiren linkin kohdalle, mitkä muutokset linkin tyylissä tapahtuu. Linkin fontin väri voi vaihtua, linkin alle tulla varjo tai vaikka fontin koko suurentua; mielikuvitus on vain rajana. Tehdään nyt kuitenkin ainoastaan maltillinen värin vaihto.</p>
+
+		<p class="koodi">
+			<code>
+
+				.murut li a:hover { <br>
+	    		&nbsp  color: #1C9A9B; <br>
+				} 
+			
+			</code>	
+		</p>
+
+		<p>Nyt murupolkumme on valmis!</p>
+		<img src="murupolku3.png">
+		<p>Pienellä vaivalla saa tehtyä siistin ja yksinkertaisen murupolun ja sitä on helppo muokata erinäköiseksi tyylittelemällä lisää.</p>
+
+		
+
+		<a id="takaisin" href="esimerkit2.html">&lt; Takaisin</a>
+
+	</div>
+</body>

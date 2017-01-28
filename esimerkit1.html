@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Murupolku nettisivuilla</title>
+  <!-- tyylit tallennettu tiedostoon "tyylit.css" tässä samassa hakemistossa ja tulostukseen käytettävä eri tyyli "tulostustyylit.css"-tiedostossa -->
+  <link rel="stylesheet" href="tyylit.css" media="screen"/>
+  <link rel="stylesheet" href="tulostustyylit.css" media="print"/>
+</head>
+<body>
+	
+	<!-- Sivuston navigaatiopalkki -->
+	<nav>
+		<ul class="navipalkki">
+			<li><a href="ht.html">Etusivu</a></li>
+			<li><a href="taustaa.html">Taustaa</a></li>
+			<li><a>Esimerkit</a></li>
+			<li><a href="palaute.html">Palaute</a></li>
+			<li><a href="lahteet.html">Lähteet</a></li>
+		</ul>
+	</nav>
+	
+	<h1>Murupolkujen ABC</h1>
+
+	<div>
+		<p class="pointti">Tällä sivulla esitetään yksinkertainen ja helppo tutoriaali murupolun tekoon.</p>
+		<p>Aloitetaan tekemällä div-elementin sisään navigaatiolista, josta saadaan murupolun osat.</p>
+		<p class="koodi">
+			<code>
+				&lt;div id="murupolku"> <br> 
+				&nbsp 	&lt;ul class="murut"> <br>
+					&nbsp &nbsp	&lt;li>&lt;a href="...">Etusivu > </a>&lt;/li> <br>
+					&nbsp &nbsp	&lt;li>&lt;a href="...">Toinen sivu > </a>&lt;/li> <br>
+					&nbsp &nbsp &lt;li>&lt;a href="...">Kolmas sivu > </a>&lt;/li> <br>
+					&nbsp &nbsp	&lt;li>&lt;a id="viimeinen" href="...">Neljäs sivu > </a>&lt;/li> <br>
+				&nbsp	&lt;/ul> <br>
+				&lt;/div>
+			</code>
+		</p>
+		<p>Kolme pistettä (...) indikoivat tekstissä kohtaa, johon kirjoitetaan sen sivun linkki, mihin muru osoittaa. Murupolun viimeiselle alkiolle on hyvä tehdä yksilöivä nimi tai luokka, jotta sen muotoilujen avulla voidaan ilmoittaa käyttäjälle, että hän on kyseisellä sivulla.</p>
+
+		<a id="eteenpain" href="esimerkit2.html">Eteenpäin ></a>
+
+	</div>
+</body>

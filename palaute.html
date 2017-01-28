@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Murupolku nettisivuilla - Taustaa</title>
+  <!-- tyylit tallennettu tiedostoon "tyylit.css" tässä samassa hakemistossa ja tulostukseen käytettävä eri tyyli "tulostustyylit.css"-tiedostossa -->
+  <link rel="stylesheet" href="tyylit.css" media="screen"/>
+  <link rel="stylesheet" href="tulostustyylit.css" media="print"/>
+</head>
+<body>
+	
+
+	<!-- Sivuston navigaatiopalkki -->
+	<nav>
+		<ul class="navipalkki">
+			<li><a href="ht.html">Etusivu</a></li>
+			<li><a href="taustaa.html">Taustaa</a></li>
+			<li><a href="esimerkit1.html">Esimerkit</a></li>
+			<li><a>Palaute</a></li>
+			<li><a href="lahteet.html">Lähteet</a></li>
+		</ul>
+	</nav>
+	<!-- Sivun sisältö -->
+	<h1>Murupolkujen ABC</h1>
+	
+	<div>
+		<h2>Lähetä palautetta</h2>
+
+	
+		<form method="post" action="http://people.uta.fi/~ah/peilaa.php">
+			<p>Ikä: <br>
+				<input name="ika" type="radio" value="0-20"> 0-20
+				<input name="ika" type="radio" value="21-40"> 21-40
+				<input name="ika" type="radio" value="41-60"> 41-60
+				<input name="ika" type="radio" value="61-100"> 61-100
+			</p>
+			<p> Pidin sivustoa:
+				<select name="mielipide">
+					<option selected>valitse</option>
+					<option>Hyödyllisenä</option>
+					<option>Hyödyttömänä</option>
+					<option>En osaa sanoa</option>
+				</select>
+			</p>
+			<p>Miksi? Voit kirjoittaa myös muita kommentteja. <br>
+				<textarea name="perustelu" rows="8" cols="25"></textarea>
+			</p>
+			<input type="Submit" value="Lähetä">
+		</form>
+
+		<p>Kiitos palautteestasi!</p>
+	</div>
+
+	<img id="karkki" src="karkkitikku.png">
+</body>

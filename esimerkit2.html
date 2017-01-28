@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Murupolku nettisivuilla</title>
+  <!-- tyylit tallennettu tiedostoon "tyylit.css" tässä samassa hakemistossa ja tulostukseen käytettävä eri tyyli "tulostustyylit.css"-tiedostossa -->
+  <link rel="stylesheet" href="tyylit.css" media="screen"/>
+  <link rel="stylesheet" href="tulostustyylit.css" media="print"/>
+</head>
+<body>
+	
+	<!-- Sivuston navigaatiopalkki -->
+	<nav>
+		<ul class="navipalkki">
+			<li><a href="ht.html">Etusivu</a></li>
+			<li><a href="taustaa.html">Taustaa</a></li>
+			<li><a>Esimerkit</a></li>
+			<li><a href="palaute.html">Palaute</a></li>
+			<li><a href="lahteet.html">Lähteet</a></li>
+		</ul>
+	</nav>
+	
+	<h1>Murupolkujen ABC</h1>
+
+	<div>
+		<p>Luomamme murupolkuelementti näyttäisi nyt tältä:</p>
+		<img id="kuva" src="murupolku1.png">
+
+		<p>Seuraavaksi aloitetaan murupolun muotoilu.</p>
+
+		<p>Ensimmäisenä siirretään kaikki murupolun alkiot vierekkäin ja poistetaan tekstin muotoilut ja asetetaan ne näkymään kuten &lt;p> -elementti.</p>
+
+		<p class="koodi">
+			<code>
+				.murut { <br>
+				&nbsp	display: block; <br>
+				} <br>
+				.murut li { <br>
+				&nbsp	display: inline; <br>
+				&nbsp	text-decoration: none; <br>
+				}
+
+			</code>
+		</p>
+
+		<p>Seuraavaksi käydään itse murualkioiden kimppuun. Määritellään fontille väri, poistetaan taas kaikki tekstin muotoilut, jotta saadaan linkkien alleviivaus pois, laitetaan hieman tilaa alkioiden väliin ja määritellään fonttikoko.</p>
+
+		<p class="koodi">
+			<code>
+				.murut li a { <br>
+				&nbsp font-size: 14px; <br>
+				&nbsp padding: 7px 6px 7px 0px; <br>
+				&nbsp text-decoration: none; <br>
+				&nbsp color: #137A7F; <br>
+				}
+
+			</code>		
+		</p>
+		<p>
+			<a id="takaisin" href="esimerkit1.html"> &lt; Takaisin</a>
+			<a id="eteenpain" href="esimerkit3.html">Eteenpäin ></a>
+		</p>
+
+	</div>
+</body>
